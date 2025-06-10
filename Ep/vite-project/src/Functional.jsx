@@ -12,7 +12,7 @@ function Functional(){
         <>
             <h2>Functional Component</h2>
             <h2>React Functional Component</h2>
-            <Props name={obj.name} age={obj.age} phone={obj.phone} email={obj.email} />
+            <Props {...obj} />
         </>
 )
 }
