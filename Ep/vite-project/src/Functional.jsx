@@ -1,4 +1,4 @@
-import Props from "./Props"
+import Props from "./Props" 
 
 let obj = {
     name : "Abi",
@@ -12,7 +12,7 @@ let products =["product 1","product 2","product 3"]
 function Functional(){
     return (
         <>
-            <h2>Functional Component</h2>
+            <h2 style={{color:"red"}}>Functional Component</h2>
             <h2>React Functional Component</h2>
             <Props  products={products}/>
         </>

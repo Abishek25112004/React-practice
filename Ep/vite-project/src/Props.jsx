@@ -1,4 +1,5 @@
 import Products from "./Products"
+import HookUseState from "./Hook-UseState"
 
 function Props({products}) {
     
@@ -9,6 +10,7 @@ function Props({products}) {
             <Products singleProduct = {items} key={index}/>
         ))}
     </ul>
+    <HookUseState />
     </>
   )
 }
