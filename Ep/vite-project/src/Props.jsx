@@ -1,12 +1,15 @@
+import Products from "./Products"
 
-function Props({name , age , phone , email}) {
+function Props({products}) {
+    
   return (
-    <div>
-      <h2>{name}</h2>
-      <h2>{age}</h2>
-      <h2>{phone}</h2>
-      <h2>{email}</h2>
-    </div>
+    <>
+    <ul>
+        {products.map((items, index)=>(
+            <Products singleProduct = {items} key={index}/>
+        ))}
+    </ul>
+    </>
   )
 }
 
