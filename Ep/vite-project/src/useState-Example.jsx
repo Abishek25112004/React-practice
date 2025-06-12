@@ -1,4 +1,5 @@
 import { useState ,useRef} from "react"
+import HookUseRef from "./Hook-UseRef";
 
 function UseStateExample() {
 
@@ -15,6 +16,7 @@ function UseStateExample() {
   <input style={{border:"3px solid black"}}  ref={inputRef}></input>
   <button onClick={display}>Show</button>
   <p>{display}</p>
+  <HookUseRef/>
 </>
     )
 }
