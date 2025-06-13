@@ -1,11 +1,11 @@
 import React from 'react'
 
-function user() {
+function Users() {
   return (
     <div>
-      <h1>User</h1>
+      <h1>Users</h1>
     </div>
   )
 }
 
-export default user
+export default Users
