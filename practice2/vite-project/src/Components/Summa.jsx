@@ -1,5 +1,6 @@
 import React, { useActionState } from 'react'
 import { useState } from 'react'
+import Count from './Count'
 
 function Summa() {
      
@@ -19,6 +20,7 @@ function Summa() {
     <div>
       <h1>{view}</h1>
       <button onClick={change}>click</button>
+       <Count/>
     </div>
   )
 }
