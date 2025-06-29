@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
+import ListRendering from './listRendering'
 
 function Count() {
 
@@ -24,6 +25,7 @@ function Count() {
       <h1>{count}</h1>
       <button onClick={add}>Add</button>
       <button onClick={decrement}>Decrement</button>
+      <ListRendering/>
     </div>
   )
 }
